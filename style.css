@@ -1,0 +1,502 @@
+* {box-sizing: border-box;}
+  p, img, div, section, blockquote {
+    overflow-wrap: break-word;
+  }
+body {
+  max-width: 900px;
+  margin: 2em auto;
+  font-family: sans-serif;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  color: rgb(55, 53, 47);  
+}
+.section-title1 {
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  top: -400px;
+  left: 250px;
+}
+.section-title {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 1.5em 0 1em;
+  position: relative;
+  top: -300px;
+}
+.section-title2 {
+  position: relative;
+  top: -450px;
+}
+  .section-title3 {
+  position: relative;
+  top: -900px;
+}
+.column-list2 {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  position: relative;
+  top: -550px;
+} 
+ .column-list1 {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  position: relative;
+  top: -500px;
+}
+  .column-list3 {
+  display: flex;
+  gap: 1em;
+  flex-wrap: wrap;
+  position: relative;
+  top: -600px;
+}
+.column {
+  flex: 1;
+  min-width: 250px;
+  padding: 0 1em;
+}
+.image-center {
+  text-align: left;
+  margin: 1em 0;
+  position: relative;
+  right: 5px;
+  top: -400px;
+}
+.image-center2 {
+  text-align: left;
+  margin: 1em 0;
+  position: relative;
+  left: 5px;
+  top: -1590px;
+}
+  .image-center3 {
+  text-align: left;
+  margin: 1em 0;
+  position: relative;
+  right:  30px;
+  top: -1000px;
+}
+.image-center img {
+  width: 400%;
+  height: 5px;
+  object-fit: fill;
+  text-align: left;
+  position: relative;
+  right: 30px;
+}
+summary {
+  cursor: pointer;
+  font-weight: bold;
+}
+mark {
+  background: rgba(231, 243, 248, 1);
+}
+header img.back {
+  width: 2000px;
+  height: 400px;
+  text-align: center;
+  max-height: 30vh;
+  object-fit: cover;
+  position: relative;
+  top: -130px;
+  right: 500px;
+
+}
+  .상,
+  .유연성,
+  .책임감,
+  .Office,
+  .Server    {
+    background: #e3f2fd;
+  }    
+  .리더십,
+  .VMware,
+  .Premier,
+  .Photoshop,
+  .커뮤니케이션,
+  .Computer,
+  .중 {
+    background: #fff9c4;
+  }  
+  .Programming,
+  .Illustrator,
+  .하 {
+    background: #ffebee;
+  }
+.page-header-icon {
+  position: relative;
+  top: -300px;
+  right: 4%;
+}
+.page-header-icon img {
+  width: 180px;
+  height: 180px;
+  border-radius: 3px;
+}
+.page-title {
+  font-size: 40px;
+  font-weight: 700;
+  font: bold;
+  margin-top: -300px;
+
+}
+blockquote {
+  font-size: 1.25em;
+  margin: 1em 0;
+  padding-left: 1.5em;
+  border-left: 3px solid rgb(55, 53, 47);
+  position: relative;
+  left: 220px;
+  max-width: 70%;
+}
+#MyLicense{
+  position: relative;
+  top: -490px;
+}
+#skills_p{
+  position: relative;
+  top: -500px;
+}
+#MyMBTI{
+  position: relative;
+  top: -500px;
+}
+#MyThink{
+  position: relative;
+  top: -550px;
+}
+#MyContect{
+  position: relative;
+  top: -1120px;
+  right: 60px;
+  text-decoration: none;
+      
+}
+  #MyContect a, 
+  #MyContect a:visited,
+  #MyContect a:hover,
+  #MyContect a:active {
+      color: inherit;
+      text-decoration: none;
+}
+#move2 {
+  position: relative;
+  bottom: 700px;
+  display: inline-block;
+  color: inherit;
+  text-decoration: none;
+}
+
+#n1 {
+  position: relative;
+  bottom: 500px;
+  right: 15px;
+  display: inline-block;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+#n1 img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transition: 0.3s ease;
+}
+#n1 img:hover {
+  filter: brightness(70%);
+  transform: scale(1.05);
+}
+#n1::after {
+  content: "클릭해서 보기";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+#n1:hover::after {
+opacity: 1;
+}
+
+
+#n2 {
+  position: relative;
+  bottom: 855px;
+  right : -350px;
+  display: inline-block;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  padding: 0;
+}
+#n2 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+#n2:hover img {
+  filter: brightness(70%);
+  transform: scale(1.05);
+}
+#n2::after {
+  content: "클릭해서 보기";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+#n2:hover::after {
+  opacity: 1;
+}
+
+#n3 {
+  position: relative;
+  bottom: 795px;
+  right : 15px;
+  display: inline-block;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  padding: 0;
+}
+#n3 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+#n3:hover img {
+  filter: brightness(70%);
+  transform: scale(1.05);
+}
+#n3::after {
+  content: "클릭해서 보기";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+#n3:hover::after {
+  opacity: 1;
+}
+
+#n5 {
+  position: relative;
+  bottom: 715px;
+  right : 15px;
+  display: inline-block;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  padding: 0;
+}
+#n5 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+#n5:hover img {
+  filter: brightness(70%);
+  transform: scale(1.05);
+}
+#n5::after {
+  content: "클릭해서 보기";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+#n5:hover::after {
+  opacity: 1;
+}
+
+#n6 {
+  position: relative;
+  bottom: 1499px;
+  right : -350px;
+  display: inline-block;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  padding: 0; 
+}
+#n6 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+#n6:hover img {
+  filter: brightness(70%);
+  transform: scale(1.05);
+}
+#n6::after {
+  content: "클릭해서 보기";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+#n6:hover::after {
+  opacity: 1;
+}
+
+#n7 {
+  position: relative;
+  bottom: 1447px;
+  right : -350px;
+  display: inline-block;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  padding: 0; 
+}
+#n7 img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+#n7:hover img {
+  filter: brightness(70%);
+  transform: scale(1.05);
+}
+#n7::after {
+  content: "클릭해서 보기";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+#n7:hover::after {
+  opacity: 1;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0; top: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  overflow-y: auto; 
+}
+.popup-content {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 1000px;
+  width: 80%;
+  margin: 10% auto;
+  position: relative;
+}
+.popup-close {
+  position: absolute;
+  top: 10px; right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+.popup-trigger {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.popup-trigger img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+.popup_icon{
+  position: relative;
+  top: 200px;
+  left: 50px;
+}
+.popup_text{
+  position: relative;
+  left: 60px;
+  top: 100px;
+  font-size: 36px;
+}
+.popup_text2{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    font-size: 16px
+}
+.popup_text3{
+    position: relative;
+    left: 60px;
+    bottom: 60px;
+    font-size: 16px
+}
+.popup_text4{
+  text-align: center;
+  font-size: 14px
+}
+.popup_line{
+      position: relative;
+      bottom: 110px;
+      left: 60px;
+}
+.center{
+  text-align: center;
+}
+.증명사진{
+  position: relative;
+  bottom: 65px;
+  left: 10px;
+  width: 150px;
+  height: 150px;
+}
+.증명사진 img {
+  border-radius: 50%;
+  border: 1px solid black;
+  width: 160px;
+  height: 160px;
+  object-fit: cover; 
+}
